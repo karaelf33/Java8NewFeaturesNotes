@@ -1,11 +1,9 @@
 package bubbleSort;
 
-import java.util.ArrayList;
-
-public class test {
+public class BubbleSortExample {
     public static void main(String[] args) {
         int[] array = {1,111,12,78,99,15,999,3,5,95};
-        booubleSorty(array);
+        bubbleSortMethod(array);
 
         for (int i: array
              ) {
@@ -13,7 +11,7 @@ public class test {
         }
     }
 
-    public static int[] booubleSorty(int[] arraylist){
+    public static int[] bubbleSortMethod(int[] arraylist){
         boolean isSorted = true;
         for (int i=0;i<arraylist.length-1;i++){
             if (arraylist[i]>arraylist[i+1]){
@@ -23,6 +21,6 @@ public class test {
                 isSorted=false;
             }
         }
-        return isSorted? arraylist : booubleSorty(arraylist);
+        return isSorted? arraylist : bubbleSortMethod(arraylist);
     }
 }
