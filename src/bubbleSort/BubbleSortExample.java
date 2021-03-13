@@ -4,7 +4,6 @@ public class BubbleSortExample {
     public static void main(String[] args) {
         int[] array = {1,111,12,78,99,15,999,3,5,95};
         bubbleSortMethod(array);
-
         for (int i: array
              ) {
             System.out.println(i);
