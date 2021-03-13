@@ -1,6 +1,4 @@
-package algoexpert;
-
-import java.util.Arrays;
+package algorthmQuesionAndAnswers;
 
 import static java.lang.Math.abs;
 

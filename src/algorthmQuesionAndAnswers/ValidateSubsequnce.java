@@ -1,4 +1,4 @@
-package algoexpert;
+package algorthmQuesionAndAnswers;
 
 import java.util.*;
 //      Validate Subsequence

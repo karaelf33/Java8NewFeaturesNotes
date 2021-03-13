@@ -1,4 +1,4 @@
-package algoexpert;
+package algorthmQuesionAndAnswers;
 
 
 /// Two number Sum
