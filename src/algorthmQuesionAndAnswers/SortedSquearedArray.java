@@ -13,7 +13,7 @@ public class SortedSquearedArray {
          return  bubbleSortFun(array);
     }
     public static int[] bubbleSortFun(int[] array1){
-        boolean isSorted = true;
+        boolean isSorted=true;
         for (int y = 0; y < array1.length - 1; y++) {
             if (array1[y]>array1[y+1]){
                 int temp = array1[y];
@@ -22,10 +22,10 @@ public class SortedSquearedArray {
                 isSorted = false;
             }
         }
-        return isSorted ? array1 : sortedSquaredArray(array1);
+        return isSorted ? array1 : bubbleSortFun(array1);
     }
     public static void main(String[] args) {
-        int[] array = {8, 7,3,2};
+        int[] array = {-4,3,12,4,3,-9,14};
            sortedSquaredArray(array);
         for (int i: array
         ) {
