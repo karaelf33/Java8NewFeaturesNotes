@@ -1,7 +1,5 @@
 package algorthmQuesionAndAnswers;
 
-import static java.lang.Math.abs;
-
 public class SortedSquearedArray {
 
     public static int[] sortedSquaredArray(int[] array) {
