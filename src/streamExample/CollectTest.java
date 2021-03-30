@@ -7,7 +7,6 @@ import java.util.stream.Stream;
 
 public class CollectTest {
     public static void main(String[] args) {
-
         Stream<String> s1 = Stream.of("horse", "dog", "bird", "monkey", "cat");
         Stream<String> s2 = Stream.of("horse", "dog", "bird", "monkey", "cat", "cat", "horse");
         System.out.println(s1.toString());
@@ -16,9 +15,7 @@ public class CollectTest {
         System.out.println(stringList);
         System.out.println("-------");
         System.out.println(stringSet);
-
-
-//        ------------------
+        // ------------------
 
     }
 }
