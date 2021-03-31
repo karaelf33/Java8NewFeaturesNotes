@@ -1,15 +1,17 @@
 package algorthmQuesionAndAnswers;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TournamentWinner{
     public String tournamentWinner(
             ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
-        // Write your code here.
+        Map<String,Integer> teamsAndPoints=new HashMap<String,Integer>();
         return "";
         }
     public static void main(String[] args) {
-
+//        String[]
     }
 }
 //Tournament Winner

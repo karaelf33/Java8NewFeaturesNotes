@@ -2,6 +2,7 @@ package streamExample;
 
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -16,6 +17,9 @@ public class CollectTest {
         System.out.println("-------");
         System.out.println(stringSet);
         // ------------------
+
+        Stream<String> s3=Stream.of("ehm","dfs","sfd","dsdf","wep");
+        s3.collect(Collectors.toCollection(TreeSet::new)).forEach(System.out::println);
 
     }
 }
